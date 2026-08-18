@@ -11,117 +11,60 @@
 - File Size and Storage Calculations
 - Lossy vs. Lossless Compression
 - ZIP Files and Data Compression
-- Common File Formats and Extensions: `.txt`, `.pdf`, `.docx`, `.xlsx`,
-  `.jpg/.jpeg`, `.png`, `.gif`, `.heic`, `.mp3`, `.zip`
+- Common File Formats and Extensions: `.txt`, `.pdf`, `.docx`, `.xlsx`, `.jpg/.jpeg`, `.png`, `.gif`, `.heic`, `.mp3`, `.zip`
 
 ---
 
-## Binary, Decimal, and Hexadecimal
+## Study Resources
 
-### Study Resources
+### Number Systems
 
-- [Welcome to CS — Binary and Bits](...)
-- [Welcome to CS — Data Representation](...)
-- [Number Bases Summary](...)
-- [Number Bases Summary with Sample Conversions](...)
-- [Binary/Hex Video Playlist](...)
-- **Binary/Hex H5P Presentation** — available in Moodle
+- [Number Systems: Decimal, Binary, and Hexadecimal](topics/number_systems.md)
 
-### You should be able to
+Covers decimal and binary number systems, binary place values, Binary ↔ Decimal conversion, hexadecimal, and Binary ↔ Hexadecimal conversion.
 
-- Convert Binary → Decimal
-- Convert Decimal → Binary
-- Convert Binary → Hexadecimal
-- Convert Hexadecimal → Binary
+### Text Representation
 
-> Direct Decimal ↔ Hexadecimal conversion is not required.
+- [Text Representation: ASCII and Unicode](topics/text_representation.md)
 
----
+Covers how computers represent text, ASCII character encoding, and Unicode.
 
-## ASCII and Unicode
+### Storage and Compression
 
-### Study Resources
+- [Storage and Data Compression](topics/storage_compression.md)
 
-- [Storing Text Video](...)
-- **Storing Text H5P Presentation** — available in Moodle
-- [ASCII Reference](...)
-- [Unicode Reference](...)
+Covers analog vs. digital information, bits and bytes, storage units, file-size calculations, lossy and lossless compression, and ZIP files.
 
-### You should be able to
+### File Formats
 
-- Explain the purpose of ASCII.
-- Decode a short ASCII message when given the necessary values.
-- Explain the purpose of Unicode and why it is needed.
+- [Common File Formats and Extensions](topics/file_formats.md)
 
----
-
-## Storage and File Sizes
-
-### Study Resources
-
-- [resource to be added]
-- Relevant sections of [Welcome to CS — Data Representation](...)
-
-### You should be able to
-
-- Recognize B, KB, MB, GB, and TB.
-- Put storage units in order by size.
-- Complete simple file-size and storage calculations.
-
----
-
-## Data Compression
-
-### Study Resources
-
-- [Data Representation & Compression Video](...)
-- **Data Representation & Compression H5P Presentation** — available in Moodle
-- [Compression: Saving JPG Video](...)
-- [Compression: Creating a ZIP File Video](...)
-
-### You should be able to
-
-- Explain why data compression is used.
-- Distinguish between lossy and lossless compression.
-- Recognize common examples of each.
-- Explain the purpose of ZIP files.
-
----
-
-## File Formats and Extensions
-
-### Study Resources
-
-- [File Formats Video](...)
-- [resource to be added if needed]
-
-### You should be able to recognize
-
-- `.txt`
-- `.pdf`
-- `.docx`
-- `.xlsx`
-- `.jpg` / `.jpeg`
-- `.png`
-- `.gif`
-- `.heic`
-- `.mp3`
-- `.zip`
-
----
-
-## Optional: Huffman Coding
-
-Huffman coding is an example of lossless data compression and may be explored
-as an additional example. **Huffman coding is not required for the CC-01
-competency assessment.**
-
-- [Huffman Coding Example](...)
-- [Huffman Coding Worksheet](...)
+Covers common document, image, audio, spreadsheet, and compressed file formats and extensions.
 
 ---
 
 ## Practice
 
-Practice activities and the comprehensive **CC-01 Practice Quiz** are available
-through the **Course Competency Hub in Moodle**.
+Practice activities and the **CC-01 Comprehensive Practice Quiz** are available through the **Course Competency Hub in Moodle**.
+
+Use the practice activities to identify areas that need additional review before completing the competency assessment.
+
+---
+
+## Competency Assessment
+
+For CC-01, you should be prepared to:
+
+- Convert Binary → Decimal
+- Convert Decimal → Binary
+- Convert Binary → Hexadecimal
+- Convert Hexadecimal → Binary
+- Explain the purpose of ASCII and Unicode
+- Decode a short ASCII message when provided with the necessary information
+- Recognize and use common storage units
+- Complete basic file-size and storage calculations
+- Distinguish between lossy and lossless compression
+- Explain the purpose of ZIP files
+- Recognize common file formats and extensions
+
+*-- end --*
