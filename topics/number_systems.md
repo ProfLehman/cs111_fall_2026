@@ -20,7 +20,7 @@ This resource reviews decimal, binary, and hexadecimal number systems and the co
 
 Humans commonly use the **decimal** number system.
 
-![Fingers and toes illustrating the decimal number system](/number_systems/fingers_and_toes.png)
+![Fingers and toes illustrating the decimal number system](number_systems/fingers_and_toes.png)
 
 *Humans have ten fingers and ten toes, one possible reason base 10 became the common decimal number system.*
 
