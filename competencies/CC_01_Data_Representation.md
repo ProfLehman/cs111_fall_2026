@@ -19,25 +19,25 @@
 
 ### Number Systems
 
-- [Number Systems: Decimal, Binary, and Hexadecimal](topics/number_systems.md)
+- [Number Systems: Decimal, Binary, and Hexadecimal](../topics/number_systems.md)
 
 Covers decimal and binary number systems, binary place values, Binary ↔ Decimal conversion, hexadecimal, and Binary ↔ Hexadecimal conversion.
 
 ### Text Representation
 
-- [Text Representation: ASCII and Unicode](topics/text_representation.md)
+- [Text Representation: ASCII and Unicode](../topics/text_representation.md)
 
 Covers how computers represent text, ASCII character encoding, and Unicode.
 
 ### Storage and Compression
 
-- [Storage and Data Compression](topics/storage_compression.md)
+- [Storage and Data Compression](,,/topics/storage_compression.md)
 
 Covers analog vs. digital information, bits and bytes, storage units, file-size calculations, lossy and lossless compression, and ZIP files.
 
 ### File Formats
 
-- [Common File Formats and Extensions](topics/file_formats.md)
+- [Common File Formats and Extensions](../topics/file_formats.md)
 
 Covers common document, image, audio, spreadsheet, and compressed file formats and extensions.
 
