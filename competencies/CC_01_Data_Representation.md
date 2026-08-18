@@ -1,4 +1,3 @@
-```markdown
 # CC-01 Data Representation
 
 ## Topics
@@ -126,4 +125,3 @@ competency assessment.**
 
 Practice activities and the comprehensive **CC-01 Practice Quiz** are available
 through the **Course Competency Hub in Moodle**.
-```
