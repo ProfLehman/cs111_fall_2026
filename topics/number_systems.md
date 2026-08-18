@@ -1,15 +1,18 @@
-# Binary and Hexadecimal
+# Number Systems: Decimal, Binary and Hexadecimal
 
 This resource reviews decimal, binary, and hexadecimal number systems and the conversions used in **CC-01 Data Representation**.
 
-## Reading
+## Reading and Resources
 
-Before reviewing this material, read:
+- Read: [*Welcome to CS* - Chapter 3: Binary and Bits](https://runestone.academy/ns/books/published/welcomecs2/binary_binary-and-bits.html?mode=browsing)
 
-- [Binary and Bits — Welcome to CS, Chapter 3](https://runestone.academy/ns/books/published/welcomecs2/binary_binary-and-bits.html?mode=browsing)
-- [Number Systems and Binary — Welcome to CS, Chapter 4.1](https://runestone.academy/ns/books/published/welcomecs2/data-representation_number-systems-binary.html?mode=browsing)
-- [Binary Conversions — Table Method — Welcome to CS, Chapter 4.2](https://runestone.academy/ns/books/published/welcomecs2/data-representation_binary-conversions-table-method.html?mode=browsing)
-- [Hexadecimal Numbers — Welcome to CS, Chapter 4.11](https://runestone.academy/ns/books/published/welcomecs2/data-representation_hexadecimal.html?mode=browsing)
+- Read: [*Welcome to CS* - Chapter 4.1: Number Systems and Binary](https://runestone.academy/ns/books/published/welcomecs2/data-representation_number-systems-binary.html?mode=browsing)
+
+- Read: [*Welcome to CS* - Chapter 4.2: Binary Conversions — Table Method](https://runestone.academy/ns/books/published/welcomecs2/data-representation_binary-conversions-table-method.html?mode=browsing)
+
+- Read: [*Welcome to CS* - Chapter 4.11: Hexadecimal Numbers](https://runestone.academy/ns/books/published/welcomecs2/data-representation_hexadecimal.html?mode=browsing)
+
+- Optional Video: [Sesame Street Counting](https://youtube.com/watch?v=HUL4T8WcFdA&pp=0gcJCf8Ao7VqN5tD)
 
 ---
 
@@ -17,13 +20,15 @@ Before reviewing this material, read:
 
 Humans commonly use the **decimal** number system.
 
+![Fingers and toes illustrating the decimal number system](/number_systems/fingers_and_toes.png)
+
+*Humans have ten fingers and ten toes, one possible reason base 10 became the common decimal number system.*
+
 - Decimal is a **base 10** number system.
 - It uses ten symbols: `0, 1, 2, 3, 4, 5, 6, 7, 8, 9`.
 - Each position represents a power of 10.
 
-### Optional Video
 
-- [Sesame Street Counting](https://youtube.com/watch?v=HUL4T8WcFdA&pp=0gcJCf8Ao7VqN5tD)
 
 For example:
 
