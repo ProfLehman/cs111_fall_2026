@@ -351,6 +351,7 @@ For example, if a small text file contains:
 
 ```text
 A A
+1B
 ```
 
 ![Text Editor](number_systems/text_editor.png)
@@ -409,11 +410,17 @@ Note: Binary arithmetic is not required for CC-01.
 ---
 ### Optional: For Fun
 
-> There are **10 types of people in the world**, those who understand binary and those who don't
+>There are **10 types of people in the world**, those who understand binary and those who don't
+
+- [Binary Hopscotch — September 21, 2008, FoxTrot by Bill Amend](https://www.gocomics.com/foxtrot/2008/09/21)
 
 - [Binary Sudoku - FoxTrot by Bill Amend](https://foxtrot.com/2025/11/16/binary-sudoku/)
 
 >11 Cheers for Binary!
+
+Numbers can be represented in any base. Another base occasinaly used by computer is base 8 called **Octal**. The base 8 model is 256 64 8 1. Assuming Oct for octal and Dec for decimal, the following is true:
+
+> Oct 31 = Dec 25
 
 
 
