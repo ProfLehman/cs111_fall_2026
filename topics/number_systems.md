@@ -328,17 +328,20 @@ Graphics applications commonly use the **RGB color model**, specifying values fo
 
 - Decimal RGB component values range from `0` to `255`.
 - The equivalent hexadecimal range is `00` to `FF`.
-- The original presentation uses `#033621` as an example of an HU green color value.
 
 For example, a six-digit hexadecimal color value is organized as:
 
 ```text
-#RRGGBB
-```
+ Red        Green      Blue
+ 00 to FF   00 to FF   00 to FF  hex
+ 0 to 255   0 to 255   0 to 255  decimal
+ ```
 
-where the first two digits represent red, the next two green, and the final two blue.
+- HU Green is hex code `#033621` where Red is 03 hex (3 decimal), Green is 36 hex (54 decimal), and Blue is 21 hex (33 decimal)
 
-See [W3Schools — Hexadecimal Colors](https://www.w3schools.com/colors/colors_hexadecimal.asp).
+See [W3Schools — Hexadecimal Colors](https://www.w3schools.com/colors/colors_hexadecimal.asp?#033621).
+
+---
 
 ### Viewing File Contents in Hexadecimal
 
@@ -350,7 +353,10 @@ For example, if a small text file contains:
 A A
 ```
 
-a hex editor would display numeric codes representing the characters stored in the file. The original presentation gives these examples:
+![Text Editor](number_systems/text_editor.png)
+
+
+A hex editor would display numeric codes representing the characters stored in the file. The original presentation gives these examples:
 
 ```text
 space            = 32 hex
@@ -361,13 +367,11 @@ line feed        = 0A hex
 
 You can experiment with a free online hex editor at [HexEd.it](https://hexed.it/). Create your own small text file, open it in the editor, and compare the characters in the file with their hexadecimal values.
 
+![Hex Editor](number_systems/hexedit.png)
+
 ---
 
-## Optional / Enrichment
-
-The following material appeared in the original H5P presentation but is **not required for the current CC-01 competency**.
-
-### Alternate Method: Converting Decimal to Another Base
+### Optional: Alternate Method for Converting Decimal to Another Base
 
 Another way to convert a decimal integer to another base is repeated division:
 
@@ -377,17 +381,18 @@ Another way to convert a decimal integer to another base is repeated division:
 4. Continue until the quotient is zero.
 5. Read the remainders from bottom to top.
 
-This method can be used with base 2, base 8, base 16, or other bases, but it is not required for CC-01.
+This method can be used with base 2, base 8, base 16, or other bases, but it is not required for CC-01. 
+If you find this method easier, feel free to use it!
 
-### Binary Arithmetic
+### Optional: Binary Arithmetic
 
-The original presentation also included binary addition and subtraction. Binary addition follows these basic rules:
+Computers can add and subtract binary numbers. Binary addition follows these basic rules:
 
 ```text
 0 + 0 = 0
 0 + 1 = 1
 1 + 0 = 1
-1 + 1 = 10
+1 + 1 = 10  (remember 10 binary is 2 decimal)
 ```
 
 Example:
@@ -399,7 +404,18 @@ Example:
   1000
 ```
 
-Binary arithmetic is enrichment material and is not required for CC-01.
+Note: Binary arithmetic is not required for CC-01.
+
+---
+### Optional: For Fun
+
+> There are **10 types of people in the world**, those who understand binary and those who don't
+
+- [Binary Sudoku - FoxTrot by Bill Amend](https://foxtrot.com/2025/11/16/binary-sudoku/)
+
+>11 Cheers for Binary!
+
+
 
 ---
 
