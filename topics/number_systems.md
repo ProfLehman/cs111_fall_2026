@@ -225,7 +225,7 @@ For background, the H5P presentation demonstrates that `1A4` hex represents 420 
 
 ## Hexadecimal and Binary
 
-Hexadecimal provides a convenient shorthand for binary because **one hexadecimal digit represents exactly four binary digits (bits)**.
+Hexadecimal provides a convenient shorthand for binary because **one hexadecimal digit represents exactly four binary digits (bits)**. 
 
 The first four binary place values are:
 
@@ -241,6 +241,18 @@ Expand each hexadecimal digit into four binary digits.
 A hex = 1010 binary
 ```
 
+We treat **each grouping of four bits as a separate number** thus the model is
+
+```text
+3A hex = 0011 1010 binary
+
+binary model: 8 4 2 1   8 4 2 1
+place values: 0 0 1 1   1 0 1 0
+
+2 + 1 = 3, 8 + 2 = 10 (A)
+```
+
+
 Examples:
 
 ```text
@@ -252,11 +264,22 @@ F2 hex = 1111 0010 binary
 
 ### Binary to Hex
 
-Divide the binary number into groups of four bits and convert each group to one hexadecimal digit.
+The same process can be used to convert binary to hex. Divide the binary number into groups of four bits and convert each group to one hexadecimal digit.
 
 ```text
-1000 binary = 8 hex
+8 4 2 1
+1 0 0 0 binary = 8 hex
 ```
+
+We treat **each grouping of four bits as a separate number** thus the model is
+
+```text
+binary model: 8 4 2 1   8 4 2 1
+place values: 1 0 1 1   1 1 0 0 binary = BC hex
+
+8 + 2 + 1 = 11 (B), 8 + 4 = 12 (C)
+```
+
 
 Examples:
 
@@ -266,6 +289,9 @@ Examples:
 1101 1100 binary = DC hex
 0001 1000 binary = 18 hex
 ```
+
+Note: Computers rarely display data in binary, rather data is displayed in hex as only one symbol is used to represent four symbols ie.  B4 is shorter than 1011 0100
+
 
 ### Hex/Binary Review
 
@@ -280,6 +306,8 @@ Examples:
 ## Checking Your Work
 
 The Windows Calculator **Programmer** mode can display decimal, hexadecimal, octal, and binary representations of a number. Use it to **check your work after completing a conversion yourself**.
+
+![Windows Calculator (Programmer Mode)](number_systems/windows_calculator.png)
 
 A useful approach is:
 
