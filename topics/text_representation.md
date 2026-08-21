@@ -41,7 +41,7 @@ Resources:
 
 Unicode defines the **meaning** of an emoji, but **each platform designs its own appearance**. As a result, an emoji may look and feel different depending on where it is displayed.
 
-In Word, type a Unicode hex value e.g. '1F601` and then press `alt` and `x`.  You shoud now see the Unicode character &#x1F601;
+In Word, type a Unicode hex value e.g. `1F601` and then press `alt` and `x`.  You shoud now see the Unicode character &#x1F601;
 
 ---
 
@@ -50,6 +50,8 @@ In Word, type a Unicode hex value e.g. '1F601` and then press `alt` and `x`.  Yo
 There are many free online text-to-binary converters. The RapidTables website has a converter that works well.
 
 [RapidTables: ASCII Text to Binary](https://www.rapidtables.com/convert/number/ascii-to-binary.html)
+
+![Rapid Tables: ASCII Text to Binary Screenshot ](text_to_binary.png)
 
 Example text:
 
@@ -75,7 +77,7 @@ Example ASCII output:
 
 `A`
 
-<!-- Add image from original H5P: RapidTables binary to text -->
+![Rapid Tables: Binary to ASCII Text](binary_to_text.png)
 
 ---
 
@@ -86,6 +88,9 @@ RapidTables also provides a converter that displays text as **binary, decimal, a
 [RapidTables: ASCII, Hex, Binary, Decimal Converter](https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html)
 
 <!-- Add image from original H5P: text to binary, decimal, and hex converter -->
+
+![Rapid Tables: ASCII Text to binary, decimal,  hex](text_to_binary_decimal_hex.png)
+
 
 ---
 
