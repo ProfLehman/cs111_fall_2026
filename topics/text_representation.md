@@ -28,7 +28,7 @@ See: [ASCII Code](https://www.ascii-code.com/)
 Examples:
 
 - `A` = `41` hex = `65` decimal = `0100 0001` binary
-- Grinning face = `U+1F600` = `1F600` hex = `128,512` decimal = `0001 1111 0110 0000 0000` binary
+- Grinning face &#x1F600; = `U+1F600` = `1F600` hex = `128,512` decimal = `0001 1111 0110 0000 0000` binary
 
 Resources:
 
@@ -121,10 +121,10 @@ RapidTables also provides a converter that displays text as **binary, decimal, a
    - ASCII code
    - EBCDIC
 
-6. Unicode stores each of the 149,813 characters in:
+6. Unicode stores each of the 159,801 characters in:
    - one to four bytes
-   - exactly one byte
-   - exactly two bytes
+   - exactly two byte
+   - exactly four bytes
    - two to eight bytes
 
 -- end --
