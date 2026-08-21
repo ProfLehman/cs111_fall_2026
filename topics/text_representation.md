@@ -41,7 +41,7 @@ Resources:
 
 Unicode defines the **meaning** of an emoji, but **each platform designs its own appearance**. As a result, an emoji may look and feel different depending on where it is displayed.
 
-<!-- Add image from original H5P: emoji platform variations -->
+In Word, type a Unicode hex value e.g. '1F601` and then press `alt` and `x`.  You shoud now see the Unicode character &#x1F601;
 
 ---
 
