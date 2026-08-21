@@ -35,7 +35,7 @@ Resources:
 - [Unicode](https://home.unicode.org/)
 - [Unicode Emoticons Chart](https://www.unicode.org/charts/PDF/U1F600.pdf)
 
-<!-- Add image from original H5P: Unicode emoticons -->
+
 
 ### Emoji Appearance
 
@@ -51,8 +51,6 @@ There are many free online text-to-binary converters. The RapidTables website ha
 
 [RapidTables: ASCII Text to Binary](https://www.rapidtables.com/convert/number/ascii-to-binary.html)
 
-![Rapid Tables: ASCII Text to Binary Screenshot ](text_to_binary.png)
-
 Example text:
 
 `A1 a2`
@@ -61,7 +59,8 @@ Example binary output:
 
 `01000001 00110001 00100000 01100001 00110010`
 
-<!-- Add image from original H5P: RapidTables ASCII to binary -->
+![Rapid Tables: ASCII Text to Binary Screenshot ](text_representation/text_to_binary.png)
+
 
 ---
 
@@ -77,7 +76,7 @@ Example ASCII output:
 
 `A`
 
-![Rapid Tables: Binary to ASCII Text](binary_to_text.png)
+![Rapid Tables: Binary to ASCII Text](text_representation/binary_to_text.png)
 
 ---
 
@@ -89,7 +88,7 @@ RapidTables also provides a converter that displays text as **binary, decimal, a
 
 <!-- Add image from original H5P: text to binary, decimal, and hex converter -->
 
-![Rapid Tables: ASCII Text to binary, decimal,  hex](text_to_binary_decimal_hex.png)
+![Rapid Tables: ASCII Text to binary, decimal, hex](text_representation/text_to_binary_decimal_hex.png)
 
 
 ---
