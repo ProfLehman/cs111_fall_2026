@@ -404,7 +404,7 @@ A **hex editor** can display the contents of a file as hexadecimal digits. Becau
 For example, if a small text file contains:
 
 ```text
-A A
+A a
 1B
 ```
 
@@ -450,7 +450,7 @@ Computers can add and subtract binary numbers. Binary addition follows these bas
 1 + 1 = 10  (remember 10 binary is 2 decimal)
 ```
 
-Example:
+Addition Example:
 
 ```text
   0101
@@ -458,6 +458,17 @@ Example:
 ------
   1000
 ```
+> 5 + 3 = 8
+
+Subtraction Example:
+
+```text
+  0101
+- 0011
+------
+  0010
+```
+> 5 - 3 = 2
 
 Note: Binary arithmetic is not required for CC-01.
 
