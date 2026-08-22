@@ -73,20 +73,21 @@ Therefore:
 1011 binary = 8 + 2 + 1 = 11 decimal
 ```
 
-At the hardware level, binary values can be represented using two states, such as electricity **off/on**.
+At the computer hardware level, binary values can be represented using two states, such as electricity **off/on**.
 
 ---
 
-## Converting Binary to Decimal
+## Converting Binary to Decimal (place values method)
 
-1. Write the binary place values below the digits. Start with `1` at the right and multiply by `2` as you move left.
-2. Add the place values below each `1` in the binary number.
+1. Write the binary place values below the digits. Start with `1` at the right and multiply by `2` as you move left. You can also start with 1 and double the value.
+
+2. Add the place values below each `1` in the binary number. The sum of these place vlaues is the equivalent decimal value. 
 
 ### Example A
 
 ```text
-binary number:    0   1   1   0   1   1   0   1
-place values:   128  64  32  16   8   4   2   1
+binary number:    0   1   1   0     1   1   0   1
+place values:   128  64  32  16     8   4   2   1
 ```
 
 ```text
@@ -97,8 +98,8 @@ place values:   128  64  32  16   8   4   2   1
 ### Example B
 
 ```text
-binary number:    1   0   0   0   1   0   1   0
-place values:   128  64  32  16   8   4   2   1
+binary number:    1   0   0   0     1   0   1   0
+place values:   128  64  32  16     8   4   2   1
 ```
 
 ```text
@@ -106,11 +107,13 @@ place values:   128  64  32  16   8   4   2   1
                  = 138 decimal
 ```
 
+>Notice that we separate each group of 4 bits with a space to make it easer to read e.g. `10101010` vs. `1010 1010` 
+
 ---
 
 ## Converting Decimal to Binary
 
-Using the place-value method:
+Using the place-value subtraction method:
 
 1. Find the largest binary place value that can be subtracted from the decimal number.
 2. Subtract that value and mark the corresponding position with `1`.
@@ -120,8 +123,8 @@ Using the place-value method:
 ### Example: Convert 43 Decimal to Binary
 
 ```text
-binary digits:     0   0   1   0   1   0   1   1
-place values:    128  64  32  16   8   4   2   1
+binary digits:     0   0   1   0     1   0   1   1
+place values:    128  64  32  16     8   4   2   1
 ```
 
 ```text
@@ -139,9 +142,13 @@ Therefore:
 
 Check:
 
+
 ```text
 32 + 8 + 2 + 1 = 43
 ```
+
+Adding the place values must total the decimal number.
+
 
 ### Another Example: Convert 134 Decimal to Binary
 
@@ -212,7 +219,54 @@ place values:     4096   256    16     1
                    16^3  16^2   16^1   16^0
 ```
 
-For background, the H5P presentation demonstrates that `1A4` hex represents 420 decimal. **Direct decimal ↔ hexadecimal conversion is not required for CC-01.**
+## Converting Hexadecimal to Decimal (place values method)
+
+1. Write the hexadecimal place values below the digits. Start with `1` at the right and multiply by `16` as you move left.
+
+2. Convert any hexadecimal letters to their decimal values (`A = 10`, `B = 11`, `C = 12`, `D = 13`, `E = 14`, `F = 15`).
+
+3. Multiply each hexadecimal digit by its place value. Add the results to find the equivalent decimal value.
+
+### Example A
+
+```text
+hex number:       6    D
+place values:    16    1
+```
+
+```text
+6D hex = (6 × 16) + (13 × 1)
+       = 96 + 13
+       = 109 decimal
+```
+
+### Example B
+
+```text
+hex number:       8    A
+place values:    16    1
+```
+
+```text
+8A hex = (8 × 16) + (10 × 1)
+       = 128 + 10
+       = 138 decimal
+```
+
+### Example C
+
+```text
+hex number:       2    3
+place values:    16    1
+```
+
+```text
+23 hex = (2 × 16) + (3 × 1)
+       = 32 + 3
+       = 35 decimal
+```
+>Notice that hex numbers do necessarily include sympbols A, B, C, D, E, or F
+
 
 ### Hex Review
 
@@ -290,7 +344,7 @@ Examples:
 0001 1000 binary = 18 hex
 ```
 
-Note: Computers rarely display data in binary, rather data is displayed in hex as only one symbol is used to represent four symbols ie.  B4 is shorter than 1011 0100
+>Computers rarely display data in binary, rather data is displayed in hex as only one symbol is used to represent four symbols e.g. `B4` is shorter than `1011 0100`
 
 
 ### Hex/Binary Review
